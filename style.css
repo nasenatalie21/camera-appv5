@@ -59,7 +59,7 @@ html, body{
     margin-left: 100px;
 }
 
-#camera--gallery{
+/* #camera--gallery{
     width: 90px;
     background-color: transparent;
     font-size: 16px;
@@ -69,10 +69,10 @@ html, body{
     position: fixed;
     bottom: 30px;
     left: calc(30% - 100px);
-}
+} */
 
 #save--image{
-    width: 100px;
+    /* width: 100px;
     background-color: transparent;
     font-size: 16px;
     border: none;
@@ -80,7 +80,16 @@ html, body{
     text-align: center;
     position: fixed;
     top: 120px;
-    left: calc(95% - 100px);
+    left: calc(95% - 100px); */
+    width: 90px;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    padding: 15px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 30px;
+    left: calc(30% - 100px);
 }
 
 .taken{
