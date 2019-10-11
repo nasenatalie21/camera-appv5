@@ -50,7 +50,7 @@ cameraTrigger.onclick = function() {
 cameraSwitch.onclick = function(){
     cameraView.srcObject = null
     front = !front;
-    //cameraStart();
+    cameraStart();
 };
 
 // Save the image to local gallery
