@@ -1,5 +1,5 @@
 // Set constraints for the video stream
-var front = true;
+var front = false;
 //var constraints = {video: {facingMode:'user'}, audio: false };
 var constraints = {video: {facingMode: front ? 'user':'environment'}};
 var track = null;
